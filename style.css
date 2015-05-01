@@ -1,0 +1,103 @@
+/* This is a CSS comment.*/
+
+
+/* This code gives the only <h1> on the page a white TEXT color */
+h1 {
+    color: white;
+    text-align: center;
+    color: #294860;
+}
+
+/* margins push other elements away */ 
+
+
+/* This code makes the <body> have a black BACKGROUND color. This rule would apply to all the elements inside of the <body> unless... */
+body {
+    font-family: Helvetica;
+    background-color: #294860;
+    border-radius: 20px;
+    
+}
+/* ...this code gives everything inside of the elements with class="lesson" a gray background color. Unless, of course... */
+/*.lesson {
+    background-color: gray;
+}
+*/
+
+/* the border-radius attribute makes the corners rounded and the margin clears out space for the stuff inside the lesson divs. Try seeing what  happens when you comment out the rule that says
+
+    padding: 10px; 
+
+by changing it to
+
+    /* padding: 10px; */
+.lesson {
+    background-color: #294860;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+
+h2 {
+	margin: 10px;
+
+}
+
+.concept {
+    background-color: #DFEAF1;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+    color: black;
+    padding: 10px
+}
+
+.concept_title {
+    font-size: 20px;
+    margin: 8px;
+    text-align: center;
+    color: #294860;
+}
+
+.concept-description {
+    font-weight: lighter;
+    margin: 6px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+table{
+	background-color: #DFEAF1;
+
+
+
+}
+.title {
+	font-weight: bold;
+}
+.feature {
+	font-weight: bold;
+}
+
+.great {
+	background-color: green;
+}
+.good {
+	background-color: orange;
+}
+.bad {
+	background-color: red;
+}
+
